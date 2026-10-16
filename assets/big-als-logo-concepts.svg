@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Three distinct BIG AL’S logo concepts</title>
+  <desc id="desc">Three different deep-blue and light-blue vector directions: an open monogram, a square badge and a roundel.</desc>
+  <rect width="1200" height="900" fill="#f4faff"/>
+  <text x="62" y="64" fill="#12344f" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3">BIG AL’S · IDENTITY DIRECTIONS</text>
+  <text x="62" y="96" fill="#506d80" font-family="Arial, sans-serif" font-size="13">Clean blue-and-white identity directions with three distinct symbol silhouettes.</text>
+  <text x="62" y="116" fill="#369dca" font-family="Arial, sans-serif" font-size="11" font-weight="700">RECOMMENDED: ROUTE MONOGRAM — clearest at small sizes and simplest to apply.</text>
+
+  <g>
+    <rect x="40" y="125" width="1120" height="230" rx="5" fill="#fff"/>
+    <text x="70" y="176" fill="#369dca" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">01</text>
+    <text x="70" y="199" fill="#12344f" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">ROUTE MONOGRAM</text>
+    <text x="70" y="230" fill="#506d80" font-family="Arial, sans-serif" font-size="11">
+      <tspan x="70" dy="0">Open BA symbol;</tspan>
+      <tspan x="70" dy="16">arrow grows from</tspan>
+      <tspan x="70" dy="16">the A crossbar.</tspan>
+    </text>
+    <image href="big-als-logo-concept-01.svg" x="295" y="145" width="790" height="190" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g>
+    <rect x="40" y="370" width="1120" height="230" rx="5" fill="#fff"/>
+    <text x="70" y="421" fill="#369dca" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">02</text>
+    <text x="70" y="444" fill="#12344f" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">CARGO TILE</text>
+    <text x="70" y="475" fill="#506d80" font-family="Arial, sans-serif" font-size="11">
+      <tspan x="70" dy="0">A square badge with</tspan>
+      <tspan x="70" dy="16">a small route notch;</tspan>
+      <tspan x="70" dy="16">compact and sturdy.</tspan>
+    </text>
+    <image href="big-als-logo-concept-02.svg" x="295" y="390" width="790" height="190" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g>
+    <rect x="40" y="615" width="1120" height="230" rx="5" fill="#fff"/>
+    <text x="70" y="666" fill="#369dca" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">03</text>
+    <text x="70" y="689" fill="#12344f" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">FORWARD ROUNDEL</text>
+    <text x="70" y="720" fill="#506d80" font-family="Arial, sans-serif" font-size="11">
+      <tspan x="70" dy="0">A rounded badge,</tspan>
+      <tspan x="70" dy="16">with a bold profile</tspan>
+      <tspan x="70" dy="16">for social avatars.</tspan>
+    </text>
+    <image href="big-als-logo-concept-03.svg" x="295" y="635" width="790" height="190" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>

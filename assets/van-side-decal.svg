@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
   <title id="title">Big Al's van side decal</title>
-  <desc id="desc">A clean navy and amber side-panel design with Big Al's name, service description and removal services.</desc>
+  <desc id="desc">A clean blue and white side-panel design with BIG AL’S name, service description and removal services.</desc>
   <rect width="1600" height="560" fill="#fff"/>
-  <path d="M0 0h1600v32H0zM0 528h1600v32H0z" fill="#183e62"/>
-  <path d="M0 32h20v496H0z" fill="#f2a14a"/>
+  <path d="M0 0h1600v32H0zM0 528h1600v32H0z" fill="#12344f"/>
+  <path d="M0 32h20v496H0z" fill="#70c5e8"/>
 
   <g transform="translate(90 144)">
-    <path d="M0 20a18 18 0 0 1 18-18h170a18 18 0 0 1 18 18v121H0z" fill="#183e62"/>
-    <path d="M206 47h49a18 18 0 0 1 14 7l41 49v38H206z" fill="#183e62"/>
-    <path d="M225 62h26l34 40h-60z" fill="#a8d7e7"/>
-    <path d="M17 129h299v19H17z" fill="#f2a14a"/>
-    <circle cx="76" cy="153" r="24" fill="#183e62"/><circle cx="76" cy="153" r="11" fill="#fff"/>
-    <circle cx="255" cy="153" r="24" fill="#183e62"/><circle cx="255" cy="153" r="11" fill="#fff"/>
-    <path d="M33 45h94" stroke="#f2a14a" stroke-width="8" stroke-linecap="round"/>
-    <text x="31" y="95" fill="#fff" font-family="Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="-1">BIG AL'S</text>
-    <text x="33" y="117" fill="#d9eaf2" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.8">A MAN WITH A VAN</text>
+    <path d="M0 20a18 18 0 0 1 18-18h170a18 18 0 0 1 18 18v121H0z" fill="#12344f"/>
+    <path d="M206 47h49a18 18 0 0 1 14 7l41 49v38H206z" fill="#12344f"/>
+    <path d="M225 62h26l34 40h-60z" fill="#c9e9f6"/>
+    <path d="M17 129h299v19H17z" fill="#70c5e8"/>
+    <circle cx="76" cy="153" r="24" fill="#12344f"/><circle cx="76" cy="153" r="11" fill="#fff"/>
+    <circle cx="255" cy="153" r="24" fill="#12344f"/><circle cx="255" cy="153" r="11" fill="#fff"/>
+    <path d="M33 45h94" stroke="#70c5e8" stroke-width="8" stroke-linecap="round"/>
+    <text x="31" y="95" fill="#fff" font-family="Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="-1">BIG AL’S</text>
+    <text x="33" y="117" fill="#d6eaf4" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.8">A MAN WITH A VAN</text>
   </g>
 
-  <text x="490" y="222" fill="#183e62" font-family="Arial, sans-serif" font-size="115" font-weight="800" letter-spacing="-6">BIG AL'S</text>
-  <path d="M501 260h925" stroke="#f2a14a" stroke-width="12"/>
-  <text x="506" y="337" fill="#183e62" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="10">A MAN WITH A VAN</text>
-  <text x="506" y="403" fill="#466477" font-family="Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="1.6">HOME MOVES  ·  SINGLE ITEMS  ·  DELIVERIES</text>
-  <text x="506" y="474" fill="#183e62" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">GET IN TOUCH FOR A QUOTE</text>
+  <text x="490" y="222" fill="#12344f" font-family="Arial, sans-serif" font-size="115" font-weight="800" letter-spacing="-6">BIG AL’S</text>
+  <path d="M501 260h925" stroke="#70c5e8" stroke-width="12"/>
+  <text x="506" y="337" fill="#12344f" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="10">A MAN WITH A VAN</text>
+  <text x="506" y="403" fill="#506d80" font-family="Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="1.6">HOME MOVES  ·  SINGLE ITEMS  ·  DELIVERIES</text>
+  <text x="506" y="474" fill="#12344f" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">GET IN TOUCH FOR A QUOTE</text>
 </svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
+  <title id="title">Concept 2 — Cargo Tile: BIG AL’S — A MAN WITH A VAN</title>
+  <desc id="desc">A compact square BA badge with clear letterforms and a light-blue route notch cut into its right edge.</desc>
+  <path d="M28 23h118v134H28z" fill="#12344f"/>
+  <path d="M146 69h17l18 21-18 21h-17" fill="#70c5e8"/>
+  <path d="M48 128V51h28c28 0 28 32 0 35H48m28 0c29 2 29 38 0 42H48" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="m83 128 28-77 27 77m-42-29h31" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
+  <text x="220" y="96" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-2.3">BIG AL’S</text>
+  <path d="M221 117h350" stroke="#70c5e8" stroke-width="4"/>
+  <text x="222" y="146" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">A MAN WITH A VAN</text>
+</svg>

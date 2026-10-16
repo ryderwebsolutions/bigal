@@ -11,7 +11,11 @@ A responsive, static website and matching vector brand kit for Big Al's. The sit
 
 ## Brand and van files
 
-- `assets/big-als-mark.svg` — compact logo mark used as the favicon and website brand icon.
+- `assets/big-als-mark.svg` — compact Route Monogram used as the favicon and brand icon.
+- `assets/big-als-logo.svg` — horizontal deep-blue and light-blue lockup for light backgrounds.
+- `assets/big-als-logo-reversed.svg` — white-and-light-blue lockup for dark backgrounds.
+- `assets/big-als-logo-concepts.svg` — comparison sheet for three distinct logo directions. Route Monogram is recommended for clarity and ease of application.
+- `assets/big-als-logo-concept-01.svg`, `assets/big-als-logo-concept-02.svg`, `assets/big-als-logo-concept-03.svg` — individual editable vector concepts.
 - `assets/van-illustration.svg` — original, hand-drawn vector van used in the homepage hero.
 - `assets/van-side-decal.svg` — scalable side-panel decal layout with a quote prompt.
 - `assets/van-rear-decal.svg` — scalable rear-door decal layout with matching brand and services.

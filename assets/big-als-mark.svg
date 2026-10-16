@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Big Al's van mark</title>
-  <rect width="64" height="64" rx="16" fill="#183e62"/>
-  <path d="M11 23a4 4 0 0 1 4-4h25a4 4 0 0 1 4 4v23H11z" fill="#fff"/>
-  <path d="M44 29h7.5a4 4 0 0 1 3.1 1.5l5 6.2A4 4 0 0 1 60.5 39v7H44z" fill="#fff"/>
-  <path d="M47 32h4.5l4.8 6H47z" fill="#a8d7e7"/>
-  <path d="M8 44h53v4H8z" fill="#f2a14a"/>
-  <circle cx="22" cy="48" r="6" fill="#183e62"/>
-  <circle cx="22" cy="48" r="2.5" fill="#fff"/>
-  <circle cx="50" cy="48" r="6" fill="#183e62"/>
-  <circle cx="50" cy="48" r="2.5" fill="#fff"/>
-  <path d="M18 27h17" stroke="#183e62" stroke-width="3" stroke-linecap="round"/>
-  <path d="M18 34h10" stroke="#f2a14a" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">BIG AL’S Route Monogram</title>
+  <g fill="none" stroke="#12344f" stroke-width="13" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M21 151V29h38c40 0 40 53 0 57H21m38 0c42 4 42 63 0 65H21"/>
+    <path d="m76 151 36-122 36 122"/>
+  </g>
+  <path d="M94 105h43l20-20-20-20h-19" fill="none" stroke="#70c5e8" stroke-width="13" stroke-linecap="square" stroke-linejoin="round"/>
 </svg>

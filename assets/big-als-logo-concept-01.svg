@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
+  <title id="title">Concept 1 — Route Monogram: BIG AL’S — A MAN WITH A VAN</title>
+  <desc id="desc">A strong, open BA monogram with a light-blue directional crossbar and a bold, clean wordmark.</desc>
+  <g fill="none" stroke="#12344f" stroke-width="12" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M25 146V34h35c37 0 37 48 0 52H25m35 0c39 4 39 58 0 60H25"/>
+    <path d="m77 146 34-112 34 112"/>
+  </g>
+  <path d="M94 104h41l18-18-18-18h-18" fill="none" stroke="#70c5e8" stroke-width="12" stroke-linecap="square" stroke-linejoin="round"/>
+  <text x="220" y="96" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-2.3">BIG AL’S</text>
+  <path d="M221 117h350" stroke="#70c5e8" stroke-width="4"/>
+  <text x="222" y="146" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">A MAN WITH A VAN</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title desc">
+  <title id="title">Concept 3 — Forward Roundel: BIG AL’S — A MAN WITH A VAN</title>
+  <desc id="desc">A circular BA badge that uses a light-blue arrow as the A crossbar, paired with a compact, confident wordmark.</desc>
+  <circle cx="91" cy="90" r="67" fill="#12344f"/>
+  <path d="M49 129V50h25c27 0 27 33 0 36H49m25 0c28 2 28 38 0 43H49" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="m83 129 26-79 27 79" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M92 101h34l17-17-17-17h-14" fill="none" stroke="#70c5e8" stroke-width="9" stroke-linecap="square" stroke-linejoin="round"/>
+  <text x="220" y="96" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="800" letter-spacing="-2.3">BIG AL’S</text>
+  <path d="M221 117h350" stroke="#70c5e8" stroke-width="4"/>
+  <text x="222" y="146" fill="#12344f" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">A MAN WITH A VAN</text>
+</svg>
