@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#183e62">
+    <meta name="description" content="Big Al's — a man with a van for home moves, single items and small business deliveries. Get in touch for a straightforward quote.">
+    <title>Big Al's — A Man With A Van</title>
+    <link rel="icon" href="assets/big-als-mark.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Big Al's home">
+          <img src="assets/big-als-mark.svg" alt="" width="48" height="48">
+          <span class="brand-copy"><strong>BIG AL'S</strong><span>A MAN WITH A VAN</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Open menu</span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#services">What we move</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#about">Meet Big Al</a>
+          <a class="button button-small button-dark nav-cta" href="#quote">Get a quote <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-inner section-wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Big Al's · Man with a van</p>
+            <h1>Need a van?<br><span>Let's get moving.</span></h1>
+            <p class="hero-intro">A friendly hand for home moves, furniture pick-ups and the things that won't fit in the car.</p>
+            <p class="hero-promise"><span aria-hidden="true">✓</span> A real person to plan your move with</p>
+          </div>
+          <form class="quick-quote" id="quick-quote">
+            <h2>Where are you moving?</h2>
+            <p>Start with the collection and delivery locations.</p>
+            <label for="quick-pickup">Collection location</label>
+            <input id="quick-pickup" name="pickup" autocomplete="street-address" placeholder="Town or Eircode" required>
+            <label for="quick-dropoff">Delivery location</label>
+            <input id="quick-dropoff" name="dropoff" placeholder="Town or Eircode" required>
+            <button class="button button-orange" type="submit">Continue with your move <span aria-hidden="true">→</span></button>
+            <span class="quick-quote-note">No obligation. We'll confirm the details with you.</span>
+          </form>
+          <img class="hero-van" src="assets/van-illustration.svg" alt="Illustration of the Big Al's moving van">
+        </div>
+      </section>
+
+      <div class="breadcrumbs section-wrap" aria-label="Breadcrumb">
+        <a href="#top">Home</a><span aria-hidden="true">›</span><span>Removals</span>
+      </div>
+
+      <section class="services section-wrap section-space" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Straightforward help for your move</p>
+            <h2>Removal services</h2>
+          </div>
+          <p class="section-intro">From a few larger items to a small home move, tell us what you need and we'll talk through a plan.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card card-peach">
+            <span class="card-number">01</span>
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 56 56"><path d="M8 26 28 9l20 17v20H8z"/><path d="M22 46V32h12v14M5 27l23-20 23 20"/></svg></div>
+            <h3>Home moves</h3>
+            <p>Moving into a new place or making room at the old one? Let's work out the right plan together.</p>
+            <a href="#quote" class="card-link">Tell us about your move <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card card-lilac">
+            <span class="card-number">02</span>
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 56 56"><path d="M12 34h32l-3-16H15zM8 34v7h40v-7M19 18l4-8h10l4 8M18 41a4 4 0 1 0 8 0m9 0a4 4 0 1 0 8 0"/></svg></div>
+            <h3>Single items</h3>
+            <p>Found the sofa, picked up the marketplace bargain, or need something bulky delivered? Sorted.</p>
+            <a href="#quote" class="card-link">Ask about an item <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="service-card card-green">
+            <span class="card-number">03</span>
+            <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 56 56"><path d="M9 46V20l19-10 19 10v26zM20 46V32h16v14M16 24h6m12 0h6M28 10v-5"/></svg></div>
+            <h3>Small business</h3>
+            <p>A helping hand for stock, equipment and those jobs that need a van and a dependable pair of hands.</p>
+            <a href="#quote" class="card-link">Plan a delivery <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="how section-space" id="how-it-works">
+        <div class="section-wrap how-inner">
+          <div class="how-copy">
+            <p class="eyebrow eyebrow-light">No mystery. Just a good plan.</p>
+            <h2>Three steps<br>to <span>on your way.</span></h2>
+            <p>Tell Big Al the basics. He'll get back to you to talk through the details before anything is booked.</p>
+            <a href="#quote" class="button button-light">Start with a quick message <span aria-hidden="true">↗</span></a>
+          </div>
+          <ol class="steps">
+            <li><span class="step-index">01</span><div><h3>Share the details</h3><p>What needs moving, where from and to, and when you're hoping to go.</p></div></li>
+            <li><span class="step-index">02</span><div><h3>Get a clear quote</h3><p>We'll confirm what's included and agree the price before you decide.</p></div></li>
+            <li><span class="step-index">03</span><div><h3>Leave the heavy lifting</h3><p>Once everything's agreed, it's time to get your things on the move.</p></div></li>
+          </ol>
+          <span class="how-doodle" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="about section-wrap section-space" id="about">
+        <div class="about-stamp"><span>LOCAL<br>VAN<br>GOOD<br>HANDS</span><b aria-hidden="true">✳</b></div>
+        <div class="about-copy">
+          <p class="eyebrow">Small business. Personal service.</p>
+          <h2>There's a person<br>behind the <span>van.</span></h2>
+          <p>Big Al's is a new, independent man-with-a-van business. No call centre, no complicated booking maze—just a real conversation about your move and what it'll take to get it done.</p>
+          <p>Every job is different. That's why we start by listening, then agree the details with you before moving day.</p>
+          <a href="#quote" class="text-link">Say hello to Big Al <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="about-card">
+          <div class="about-card-top"><span class="tiny-sun" aria-hidden="true">✳</span><span>THE BIG AL'S WAY</span></div>
+          <blockquote>“A good move starts with knowing what's happening.”</blockquote>
+          <span class="signature">Big Al</span>
+          <div class="about-card-foot"><span>Clear plans</span><span>Careful hands</span><span>No guesswork</span></div>
+        </div>
+      </section>
+
+      <section class="quote section-space" id="quote">
+        <div class="section-wrap quote-inner">
+          <div class="quote-copy">
+            <p class="eyebrow eyebrow-light">Let's get the ball rolling</p>
+            <h2>What's the<br><span>move?</span></h2>
+            <p>Share a few details and we'll get back to you to talk it through. The more you can tell us, the better we can help.</p>
+            <div class="contact-note">
+              <span class="contact-icon" aria-hidden="true">✳</span>
+              <p><strong>Prefer a quick chat?</strong><br><span id="contact-prompt">Contact details will be added here before launch.</span></p>
+            </div>
+          </div>
+          <form class="quote-form" id="quote-form">
+            <div class="form-heading"><span>01 — 04</span><strong>Your move, in a nutshell</strong></div>
+            <label for="pickup-location">Collection location</label>
+            <input id="pickup-location" name="pickup" autocomplete="street-address" placeholder="Town or Eircode">
+            <label for="delivery-location">Delivery location</label>
+            <input id="delivery-location" name="dropoff" placeholder="Town or Eircode">
+            <label for="customer-name">Your name</label>
+            <input id="customer-name" name="name" autocomplete="name" placeholder="How should we address you?" required>
+            <label for="customer-contact">Best way to reach you</label>
+            <input id="customer-contact" name="contact" autocomplete="on" placeholder="Email or phone number" required>
+            <div class="form-row">
+              <div><label for="move-date">When?</label><input id="move-date" name="date" type="date"></div>
+              <div><label for="move-type">What kind of job?</label>
+                <select id="move-type" name="type" required>
+                  <option value="" disabled selected>Choose one</option>
+                  <option>Home move</option><option>Single item</option><option>Small business</option><option>Something else</option>
+                </select>
+              </div>
+            </div>
+            <label for="move-details">A few more details</label>
+            <textarea id="move-details" name="details" rows="3" placeholder="What needs moving, and from where to where?"></textarea>
+            <button class="button button-orange form-submit" type="submit">Prepare my quote request <span aria-hidden="true">↗</span></button>
+            <p class="form-footnote">Your details aren't stored on this website. Submitting opens your email app with a message ready to send.</p>
+            <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-wrap footer-top">
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/big-als-mark.svg" alt="" width="48" height="48">
+          <span class="brand-copy"><strong>BIG AL'S</strong><span>A MAN WITH A VAN</span></span>
+        </a>
+        <p>A little help goes a long way.</p>
+        <a class="footer-top-link" href="#top">Back to top ↑</a>
+      </div>
+      <div class="section-wrap footer-bottom">
+        <span>© <span id="year"></span> Big Al's. A new business, built on good service.</span>
+        <span>Made with care <i aria-hidden="true">✳</i></span>
+      </div>
+    </footer>
+  </body>
+</html>
