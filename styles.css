@@ -107,20 +107,20 @@ h2 { margin-bottom: 0; font-size: clamp(42px, 5.2vw, 65px); line-height: 1.04; f
 .step-index { padding-top: 2px; color: #f09a66; font-size: 10px; font-weight: 700; letter-spacing: .12em; }
 .steps h3 { margin-bottom: 6px; font-family: var(--font-display); font-size: 17px; }
 .steps p { max-width: 355px; margin-bottom: 0; color: #b9c9c3; font-size: 11px; line-height: 1.65; }
-.how-doodle { position: absolute; top: -18px; right: -70px; color: rgba(240, 154, 102, .12); font-size: 188px; pointer-events: none; }
+.how-doodle { position: absolute; top: -18px; right: -70px; width: 188px; height: 188px; opacity: .12; pointer-events: none; }
 
 .about { display: grid; grid-template-columns: 170px 1fr 330px; align-items: center; gap: 45px; }
 .about-stamp { width: 151px; height: 151px; position: relative; display: grid; place-items: center; border: 1px solid var(--orange); border-radius: 50%; transform: rotate(-13deg); }
 .about-stamp:before { position: absolute; inset: 9px; border: 1px dashed rgba(238, 113, 62, .55); border-radius: 50%; content: ""; }
 .about-stamp span { color: var(--orange-dark); font-size: 12px; line-height: 1.4; text-align: center; font-weight: 700; letter-spacing: .1em; }
-.about-stamp b { position: absolute; right: 9px; bottom: 10px; color: var(--orange); font-size: 22px; }
+.stamp-star { position: absolute; right: 9px; bottom: 10px; width: 22px; height: 22px; }
 .about-copy .eyebrow { margin-bottom: 15px; }
 .about-copy h2 { margin-bottom: 19px; font-size: clamp(37px, 4vw, 53px); }
 .about-copy > p:not(.eyebrow) { max-width: 495px; margin-bottom: 13px; color: var(--ink-soft); font-size: 12px; line-height: 1.8; }
 .about-copy .text-link { display: inline-block; margin-top: 5px; }
 .about-card { min-height: 295px; padding: 24px 24px 18px; display: flex; flex-direction: column; background: #e4e8dc; }
 .about-card-top { display: flex; justify-content: space-between; align-items: center; color: var(--ink-soft); font-size: 8px; font-weight: 700; letter-spacing: .15em; }
-.tiny-sun { color: var(--orange); font-size: 20px; }
+.tiny-sun { width: 20px; height: 20px; }
 .about-card blockquote { margin: auto 0 18px; font-family: var(--font-display); font-size: 24px; font-weight: 600; line-height: 1.3; letter-spacing: -.05em; }
 .signature { margin-bottom: 20px; color: var(--orange-dark); font-family: var(--font-display); font-size: 19px; font-weight: 700; font-style: italic; }
 .about-card-foot { padding-top: 13px; display: flex; justify-content: space-between; border-top: 1px solid rgba(24, 51, 46, .2); color: var(--ink-soft); font-size: 8px; font-weight: 700; }
@@ -130,7 +130,7 @@ h2 { margin-bottom: 0; font-size: clamp(42px, 5.2vw, 65px); line-height: 1.04; f
 .quote-copy h2 { font-size: clamp(50px, 5.3vw, 68px); }
 .quote-copy > p:not(.eyebrow) { max-width: 380px; margin: 20px 0 28px; color: #c1cfca; font-size: 13px; line-height: 1.8; }
 .contact-note { display: flex; align-items: flex-start; gap: 12px; }
-.contact-icon { color: #f09a66; font-size: 20px; }
+.contact-icon { flex: 0 0 20px; width: 20px; height: 20px; }
 .contact-note p { margin: 0; color: #c1cfca; font-size: 11px; line-height: 1.7; }
 .contact-note strong { color: var(--paper); }
 .contact-note a { color: var(--paper); text-underline-offset: 3px; }
@@ -157,7 +157,7 @@ h2 { margin-bottom: 0; font-size: clamp(42px, 5.2vw, 65px); line-height: 1.04; f
 .footer-top > p { margin: 0; color: #c0d0c7; font-family: var(--font-display); font-size: 13px; }
 .footer-top-link { color: #d6e1db; font-size: 10px; font-weight: 600; text-decoration: none; }
 .footer-bottom { min-height: 50px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(246, 244, 237, .18); color: #bdcbc4; font-size: 9px; }
-.footer-bottom i { margin-left: 5px; color: #f09a66; font-style: normal; }
+.footer-spark { width: 9px; height: 9px; margin-left: 5px; vertical-align: -1px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
@@ -221,7 +221,7 @@ h2 { margin-bottom: 0; font-size: clamp(42px, 5.2vw, 65px); line-height: 1.04; f
   .how-inner, .quote-inner { grid-template-columns: 1fr; gap: 40px; }
   .how-copy h2 { font-size: 53px; }
   .how-copy > p:not(.eyebrow) { margin-block: 17px 22px; }
-  .how-doodle { top: 3px; right: -63px; font-size: 125px; }
+  .how-doodle { top: 3px; right: -63px; width: 125px; height: 125px; }
   .steps li { padding-block: 19px; }
   .about { grid-template-columns: 1fr 1fr; gap: 25px 15px; }
   .about-stamp { width: 100px; height: 100px; align-self: start; }
@@ -304,7 +304,7 @@ body { background: #fff; color: var(--ink); }
 .about { grid-template-columns: 130px 1fr 300px; gap: 34px; }
 .about-stamp { width: 120px; height: 120px; border-color: #168ac4; }
 .about-stamp:before { border-color: #9acbe0; }
-.about-stamp span, .about-stamp b, .tiny-sun { color: #168ac4; }
+.about-stamp span { color: #168ac4; }
 .about-copy h2 { font-size: 43px; }
 .about-card { min-height: 260px; background: #f1f6f8; border-radius: 4px; }
 .signature { color: #168ac4; }
